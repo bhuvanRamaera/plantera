@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap");
+.main-container {
+  font-family: "Josefin Sans", sans-serif;
+}
+.imaged {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0)
+    ),
+    url("../../src/assets/footerbg.jpeg");
+  height: 536px;
+  background-position-x: center;
+  background-position-y: 16%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.subscibe {
+  background: linear-gradient(107.77deg, #ff4f4f 15.95%, #fe7171 100%);
+}
+.join{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 40px;
+}
+.footer-btn{
+    background-color: white;
+    color: black;
+    height: 59px;
+    /* border-radius: 0px 40px 40px 0px; */
+    width: 150px;
+    border-radius: 40px;
+}
+.input {
+  width: 400px;
+  height: 59px;
+  /* border: 1px solid #d9d9d9; */
+  border-radius: 20px;
+  background: transparent;
+  margin-left: 20px;
+  color: white;
+  outline: none;
+}
+.input::placeholder {
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .main-container {
+    width: 100%;
+  }
+  .footer {
+    flex-direction: column;
+  }
+
+  .subscibe,
+  .social {
+    height: 100px;
+    flex-direction: column;
+  }
+  .social {
+    width: 100%;
+    margin: 0px auto;
+  }
+  .social-text {
+    margin: 0px auto;
+
+  }
+  .subscribe-text{
+    display: none;
+  }
+  .icons {
+    margin: 0px auto;
+  }
+  .join{
+    justify-content: space-between;
+    width: 300px;
+  }
+  .footer-btn{
+    width: 100px;
+    height: 40px;
+  }
+  .input {
+    width: 150px;
+    height: 40px;
+  }
+  .sidebar-container {
+    flex-direction: column;
+  }
+  .imaged {
+    height: 200px;
+    /* background-size: contain; */
+    width: 100%;
+  }
+  .footer-end {
+    flex-direction: column;
+  }
+  .logo {
+    width: 50%;
+  }
+  .logo img {
+    width: 80px;
+  }
+  .menu {
+    width: 100%;
+    margin: 10px auto;
+    justify-content: space-between;
+  }
+  .menu-links {
+    justify-content: flex-end;
+  }
+  .social-container {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .copyright{
+    width: 100%;
+    height: 40px;
+    background-color: #1E1E1E;
+  }
+  .copyright-text{
+    margin: 10px auto; 
+  }
+  .side-bar{
+    display: none;
+  }
+  .siderbar-container{
+    width: 80%;
+    margin-top: 20px;
+    margin: 10px auto;
+  }
+  .subscibe-sidebar{
+    display: none;
+  }
+}

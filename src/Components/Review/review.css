@@ -1,0 +1,132 @@
+.review-container{
+  width: 95%;
+  height: 100vh;
+}
+.review-info{
+  width: 45%;
+  margin-top: 5rem;
+}
+.review-info-para {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 80%;
+}
+.small-box1 {
+  background: linear-gradient(107.77deg, #ff4f4f 15.95%, #fe7171 100%);
+  border-radius: 20px;
+  position: absolute;
+  top: 8%;
+  left: 51%;
+  width: 535px;
+  height: 101px;
+}
+.spices5 {
+  position: absolute;
+  width: 900px;
+  height: 470px;
+  top: 40vh;
+  right: 1%;
+  right: -1%;
+
+  background-image: url("../../../src/assets/Spices5.png");
+  opacity: 50%;
+  background-position: center;
+  background-size: contain;
+}
+.spices6 {
+  position: absolute;
+  right: 7%;
+  top: 10%;
+  width: 672px;
+  height: 453px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../../../src/assets/Spices6.jpeg");
+  border: 1px solid #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  z-index: 6;
+}
+.order{
+  width: 434px;
+  height: 213px;
+  left: 42%;
+}
+.order-info {
+  font-family: "Original Surfer";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+.order-desc {
+  font-size: 16px;
+  line-height: 24px;
+  color: #828282;
+  font-weight: 200;
+}
+.transbg {
+  top: 17%;
+  opacity: 0.24;
+  transform: rotate(-22.54deg);
+  width: 955.7px;
+  height: 785.82px;
+  left: -20%;
+}
+
+@media screen and (max-width: 600px){
+  .review-container{
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    height: 1200px;
+    justify-content: center;
+    align-items: center;
+  }
+  .review-info{
+    width: 90%;
+    text-align: center;
+    margin-top: 0;
+  }
+  .small-box1{
+    width: 250px;
+    /* display: none; */
+    top: 55%;
+    left: 17%;
+  
+  }
+  .spices5{
+    /* display: none; */
+    width: 350px;
+    background-repeat: no-repeat;
+    z-index: -10;
+    top: 55%;
+    left: 1%;
+    opacity: 0.7;
+  }
+  .spices6{
+    display: none;
+  }
+  .quotes{
+   width: 95%;
+   margin: 0px auto;
+  }
+  .review-info-para{
+    width: 95%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  .order{
+    width: 300px;
+    height: 100;
+    left: 10%;
+    top: 50%;
+  }
+  .transbg{
+    display: none;
+  }
+}

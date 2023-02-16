@@ -1,0 +1,72 @@
+.blog-para {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  word-spacing: 5px;
+}
+.img-div {
+  width: 309px;
+  height: 370px;
+  border-radius: 42.649px;
+  background-position: center;
+  background-size: cover;
+}
+.cards{
+  width: 20vw;
+}
+
+.product-name {
+  font-family: "Original Surfer";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 40px;
+  background: linear-gradient(107.77deg, #ff4f4f 15.95%, #fe7171 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.product-desc{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 32px;
+
+color: #8A8585;
+}
+
+@media screen and (max-width: 600px){
+  .newsandblog{
+    width: 100%;
+  }
+  .spoon{
+    display: none;
+  }
+  .cards-container{
+    flex-direction: column;
+  }
+  .blog-para{
+    width: 90%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .cards{
+    width: 100vw;
+    margin: 2px auto;
+    justify-content: center;
+  }
+  .product-name{
+    font-size: 30px;
+  }
+  .product-desc{
+    font-size: 25px;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}

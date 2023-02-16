@@ -1,0 +1,180 @@
+.small-box {
+    background: linear-gradient(107.77deg, #FF4F4F 15.95%, #FE7171 100%);
+    border-radius: 30px;
+    left: 70px;
+}
+
+.box1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../src//assets/spices1.jpeg');
+    top: 20px;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+
+.box1:hover{
+    transform: scale(1.1);
+}
+.box2:hover{
+    transform: scale(1.1);
+}
+.box2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../src//assets/spices2.jpeg');
+    top: 18%;
+    left: 20%;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+
+.small-box2 {
+    top: 80%;
+    background: linear-gradient(107.77deg, #FF4F4F 15.95%, #FE7171 100%);
+    border-radius: 30px;
+    left: 24%;
+}
+
+
+.button-5 {
+    width: 200px;
+    border-radius: 5px;
+    background-color: #F4F200;
+    background-image: #F4F200;
+    background-image: -moz-linear-gradient(top, #fff 0%, #F4F200 100%); 
+    background-image: -webkit-linear-gradient(top, #fff 0%,#F4F200 100%); 
+    background-image: linear-gradient(to bottom, #fff 0%,#F4F200 100%); 
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  .button-5:hover {
+    background-position: -200%;
+    transition: background 300ms ease-in-out;
+  }
+
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 266px;
+    height: 77px;
+    background: linear-gradient(107.77deg, #FF4F4F 15.95%, #FE7171 100%);
+    box-shadow: 0px 0px 80px rgba(205, 205, 205, 0.25);
+    border-radius: 6px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    padding-top: auto;
+    box-shadow: inset 0 0 0 0 #FF4F4F;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.btn:hover{
+    box-shadow: inset 400px 0 0 0 #FF4F4F;
+}
+.heading {
+    font-family: "Oriya MN";
+    background: linear-gradient(107.77deg, #FF4F4F 15.95%, #FE7171 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    text-shadow: 0px 4px 4px rgba(255, 13, 13, 0.25);
+   
+}
+.heading:hover{
+    text-shadow: 0px 8px 7px rgba(255, 13, 13, 0.25);
+
+}
+.para {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.hand {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.spices3{
+    right: -15%;
+    top: -23%;
+}
+@media screen and (max-width: 600px){
+    .spices-container{
+        width: 100%;
+        flex-direction: column;
+        height: 1000px;
+       
+    }
+    .box-container{
+        width: 95%;
+        margin: 0px auto;
+    }
+    .small-box{
+        width: 150px;
+        height: 30px;
+        left: 55px;
+        top: 7px;
+    }
+    .box1{
+        width: 200px;
+        height: 300px;
+        left: 13%;
+
+    }
+    .box2{
+        /* display: none; */
+        width: 200px;
+        height: 300px;
+        margin-bottom: 50px;
+        top: 10%;
+        left: 30%;
+    }
+    .small-box2{
+        width: 150px;
+        height: 30px;
+        top: 38.3%;
+        left: 32%;
+        
+    }
+    .spices-info{
+        margin-top: 0;
+    }
+    .para{
+        width: 90%;
+        margin: 0px auto;
+        font-size: 18px;
+        text-align: center;
+    }
+    .btn-container{
+        width: 95%;
+        margin: 0px auto;
+        
+    }
+    .btn{
+        width: 150px;
+        height: 50px;
+        font-size: 13px;
+        line-height: 13px;
+    }
+}

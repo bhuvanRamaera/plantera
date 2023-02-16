@@ -1,0 +1,548 @@
+
+@media only screen and (max-width: 600px) {
+
+    body{overflow-x: hidden;}
+
+    .masalaMobile-flex{
+        position: relative;
+        width: 100%;
+    }
+
+    .masalaMobile-width{
+        width: 100%;
+    }
+
+
+    .px-28{
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+
+    .experience-flex{
+        width: 100%;
+    }
+
+    .experienceFood{
+        position: absolute;
+        right: 0%;
+         height: 645px;
+        top: 50%;
+        opacity:0.1;
+    }
+       
+    .experience-bg{
+background-image: linear-gradient(#FF4F4F 0%, #FE7171 100%);
+border-radius: 15px;
+width: 326px;
+height: 94px;
+box-shadow: 0px 4px 3px rgb(255 13 13 / 25%);
+border: 1px solid white;
+ }
+
+ .pl-14{
+    padding-left:0rem !important;
+}
+
+.bussiness-Flex{
+    display: block;
+}
+
+.solution-background{
+
+    background-image:url(./assets/images/solution-rect.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    position: relative;
+    overflow-x: hidden;
+
+}
+
+.solution-image{
+    margin-top:-87px;
+    margin-left:0px;
+    position:absolute;
+    }
+
+    .bussiness-head-mobile{
+        font-family: myfont;
+        color:#FF4F4F;
+        text-shadow: 0px 4px 3px rgba(255, 13, 13, 0.25);
+        font-size: 37px;
+    
+}
+
+.bussiness-head-mobile-technology{
+    font-family: myfont;
+    color:#FF4F4F;
+    text-shadow: 0px 4px 3px rgba(255, 13, 13, 0.25);
+    font-size: 30px;
+
+}
+
+.spices-pad{
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    
+}
+
+.bussiness-background{
+    background-image:url(./assets/images/bussiness-rect.png);
+    background-repeat: no-repeat;
+    height:669px;
+    background-size:contain;
+    
+}
+.bussiness-image{
+    margin-top: -46px;
+margin-left: -27px;
+height: 540px;
+}
+
+    .mt-40{
+        margin-top: 5rem !important
+    }
+
+    .foodyBackground{
+        background-image: url(./assets/images/background-1.png);
+        height:1000px;
+        background-size:cover;
+    
+    }
+
+    .pl-141 {
+        padding-left: 1.5rem;
+    }
+
+    .p-14 {
+        padding: 1.5rem !important;
+    }
+
+    .pr-5 {
+        padding-right: 0rem !important;
+    }
+
+    .cusines-image {
+        position: absolute;
+        top: 14%;
+        height: 600px;
+        opacity: 0.1;
+    }
+
+    .cooking-dis{
+        display:none;
+    }
+
+    .basis-10\/12 {
+        flex-basis: 83.333333%;
+    }
+
+    .basis-10\/12 {
+        flex-basis: 100% !important;
+    }
+
+    .mt-401 {
+        margin-top: 0rem !important;
+    }
+
+    .taste-cooking{
+        color:#FF4F4F;
+        font-family: myfont;
+        font-size: 33px;
+        }
+
+        #desktopNav{
+            display: none;
+
+        }
+
+        #navigation{
+            display: none;
+        }
+
+        /* #mobileNav{
+            display: block;
+        } */
+
+        #desktopCart{
+            display: none;
+        }
+
+        .nav-flex{
+            Display:flex;
+            margin:auto;
+            flex-direction:column;
+            justify-content: space-between;
+            margin-top:30px;
+               
+           }   
+           
+           
+           #mobilenavigation {
+            width: 100%;
+            padding-left: 15px;
+            background-color: #FF4F4F;
+            padding: 22px;
+            border-bottom: 2px solid #ffffff;
+            box-shadow: 1px 2px 3px 3px #ff4f4f;
+            box-shadow: 3px 0px 1px 0px #ff4f4f;
+        }
+           #mobilenavigation li{
+            margin-bottom:25px;
+           }
+
+           #mobilenavigation li a{
+            font-family: myregular;
+            font: size 18px;
+            color:white;
+           }
+
+
+           #mobileNav i{
+            cursor: pointer;
+           }
+
+           .heading-text {
+            font-family: 'oriyafont';
+            color: #FF4F4F;
+            text-shadow: 1px 1px 2px #ff4f4f;
+            font-weight: 400;
+            font-size: 52px !important;
+        }
+
+        .slider-Image{
+            background-image: url("../assets/images/background.png");
+            background-repeat: no-repeat;
+            background-size:cover !important;
+            order: 1;
+            
+        }
+
+        .myPos{
+            order: 2;
+        }
+
+        .text-alignment{
+            display: flex;
+            flex-direction: column;
+            height: 358px !important;
+            justify-content: center;
+            width: 100%;
+            margin-top:160px;
+
+        
+            
+            
+        }
+
+        .header-display{
+            display: none !important;
+        }
+
+        .basis-8\/12 {
+            flex-basis: 100% !important
+        }
+
+        .image-top{
+            margin-top: 15px !important;
+        }
+
+        .icon-design{
+            font-size: 21px;
+            padding: 11px;
+            background-color: #d3d3d3ba;
+            color: #ff5151;
+            border-radius: 10px;
+        }
+        
+        .nav-shadow{
+            box-shadow:0px -1px 3px 3px #dfdada;
+            }
+
+
+
+            #mobile-pouch{
+                display: block;
+            }
+
+            #desktop-pouch{
+                display: none;
+            }
+            .mt-24 {
+                margin-top: 0rem !important;
+            }
+
+            .explore{
+                display: flex;
+                border-radius: 30.5px;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                color: #ffffff;
+                font-family: 'myregular';
+                width: 145px;
+                height: 56px;
+                border: 1px solid white;
+                box-shadow: 0px 0px 9px 0px #fe7171;
+                background-image: linear-gradient(#FF4F4F 0%, #FE7171 100%);
+                font-size: 14px;
+              }
+
+}
+
+
+
+
+
+    
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+    .container{
+        max-width: 100% !important;
+    }
+
+    .masalaMobile-width{
+        width: 20%;
+    }
+
+    .masalaMobile-flex{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        position: relative;
+        
+    }
+
+    .px-28{
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+
+    .experience-flex{
+        display: flex;
+    }
+
+    .experienceFood{
+    position: absolute;
+    right: 0%;
+     height: 645px;
+    top: 50%;
+    opacity:1;
+    }
+
+    .experience-bg{
+        background-image: linear-gradient(#FF4F4F 0%, #FE7171 100%);
+        border-radius: 15px;
+        width: 374px;
+        height: 94px;
+        box-shadow: 0px 4px 3px rgb(255 13 13 / 25%);
+        border: 1px solid white;
+        
+        }
+
+        .pl-14{
+            padding-left:3.5rem
+        }
+
+        .business-Flex{
+            display: flex;
+        }
+
+        .solution-background{
+
+            background-image:url(./assets/images/solution-rect.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+        
+            
+        
+        }
+
+        .solution-image{
+            margin-top:-170px;
+            margin-left:3px;
+        
+            }
+
+            .bussiness-head-mobile{
+                font-family: myfont;
+                color:#FF4F4F;
+                text-shadow: 0px 4px 3px rgba(255, 13, 13, 0.25);
+                font-size: 46px;
+            
+        }
+
+        .bussiness-head-mobile-technology{
+            font-family: myfont;
+            color:#FF4F4F;
+            text-shadow: 0px 4px 3px rgba(255, 13, 13, 0.25);
+            font-size: 46px;
+        
+    }
+        
+        .spices-pad{
+            padding-right: 1.25rem;
+            
+        }
+
+        .bussiness-background{
+            background-image:url(./assets/images/bussiness-rect.png);
+            background-repeat: no-repeat;
+            height:669px;
+            background-size: cover;
+            
+        }
+
+        .bussiness-image{
+            margin-top: -19px;
+            margin-left: -80px;
+            height: 725px;
+            
+        }
+        
+        .mt-40{
+            margin-top: 10rem;
+        }
+
+       .pl-141 {
+            padding-left: 3.5rem;
+        }
+
+        .p-14 {
+            padding: 3.5rem;
+        }
+    
+        .pr-5 {
+            padding-right: 1.25rem;
+        }
+
+        .cusines-image{
+            position: absolute;
+            top: -40%;
+            height: 600px;
+        }
+
+        .cooking-dis{
+            display: block;
+        }
+
+        .mt-401 {
+            margin-top: 10rem !important
+        }
+    
+        
+        .taste-cooking{
+            color:#FF4F4F;
+            font-family: myfont;
+            font-size: 51px;
+            }
+
+
+            .nav-flex{
+             Display:flex;
+             margin:auto;
+             flex-direction:row;
+             justify-content: space-between;
+                
+            } 
+            #mobileNav{
+                display: none;
+               }
+
+               #navDropdown{
+                display: none;
+               }
+
+               .heading-text {
+                font-family: 'oriyafont';
+                color: #FF4F4F;
+                text-shadow: 1px 1px 2px #ff4f4f;
+                font-weight: 400;
+                font-size: 70px;
+            }
+
+            .slider-Image{
+                background-image: url("../assets/images/background.png");
+                background-repeat: no-repeat;
+                background-size: contain;
+                order: 2;
+                
+            }
+            .myPos{
+                order: 1;
+            }
+    
+
+            .text-alignment{
+                display: flex;
+                flex-direction: column;
+                height: 532px !important;
+                justify-content: center;
+                width: 100%;
+            
+                
+            }
+
+
+            .header-display{
+                display: block;
+            }
+
+            .basis-8\/12 {
+                flex-basis: 66.666667%;
+            }
+
+            .image-top{
+                margin-top:0px;
+            }
+        
+            #mobile-pouch{
+                display: none;
+            }
+
+            #desktop-pouch{
+                display: block;
+            }
+            
+            .mt-24 {
+                margin-top: 6rem;
+            }
+
+            .explore{
+                display: flex;
+                border-radius: 30.5px;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                color: #ffffff;
+                font-family: 'myregular';
+                width: 165px;
+                height: 56px;
+                border: 1px solid white;
+                box-shadow: 0px 0px 9px 0px #fe7171;
+                background-image: linear-gradient(#FF4F4F 0%, #FE7171 100%);
+                font-size: 16px;
+              }
+          
+
+}
