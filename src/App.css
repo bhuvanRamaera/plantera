@@ -408,6 +408,15 @@ img.vert-move {
 }
 
 
+
+
+.hide-lightbox{
+    display: none;
+}
+
+.element-visible { display: block }
+.element-hidden { display: none }
+
   
 
 @media screen and (min-width:1280px) {
