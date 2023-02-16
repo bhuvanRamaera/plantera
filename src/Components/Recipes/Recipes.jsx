@@ -7,57 +7,45 @@ import like from "../../../src/assets/like.png";
 import { Share } from "@mui/icons-material";
 import { SocialIcon } from "./SocialIcon";
 
-
-const Socials = SocialIcon.map((item) => {
-  return (
-    <div className="video-cards flex w-11/12 justify-around mx-auto mt-10 items-center">
-      <div
-        className="shadow-lg p-4 relative"
-        style={{ border: "1px solid #dbdbdb" }}
-        >
-        <div
-          className="z-[100]bg-500-red h-8 w-8 absolute pointer-events-none"
-          onClick={() => setVisible(!visible)}
-          >
-          style=
-          {{
-            right: "34%",
-            top: "26%",
-            width: "34%",
-          }}
-          <img src="../../../src/assets/play.png" />
-        </div>
-
-        <div
-          className="z-[100]bg-500-red h-8 w-8 absolute"
-          style={{ right: "7%", top: "40%" }}
-          >
-          <a href={`${item.instaLink}`} target="_blank">
-            <img src={`${item.shareIcon}`} className="mb-10" />
-          </a>
-          <a href={`${item.instaLink}`} target="_blank">
-            <img src={`${item.commentIcon}`} className="mb-10" />
-          </a>
-
-          <a href={`${item.instaLink}`} target="_blank">
-            <img src={`${item.likeIcon}`} className="mb-10" />
-          </a>
-        </div>
-        <InstagramEmbedDangerousHTML url={`${item.instaLink}`} />
-      </div>
-    </div>
-  );
-});
-
 const Recipes = () => {
-  const [visible, setVisible] = useState(false);
+  const [isActive,  setIsActive] = useState(true)
   return (
     <div className="recipes lg:w-[95%] mx-auto mt-5">
       <div className="flex justify-center">
         <h1 className="heading">Check out the yummiest recipes </h1>
       </div>
       <div className="video-cards flex w-[100%] justify-around mx-auto mt-10 items-center">
-        {Socials}
+        {SocialIcon.map((item) => {
+          return (
+            <div className="video-cards flex w-11/12 justify-around mx-auto mt-10 items-center">
+              <div
+                className="shadow-lg p-4 relative"
+                style={{ border: "1px solid #dbdbdb" }}
+              >
+                <div className="z-[100]bg-500-red right-[34%] top-[26%]  h-8 w-[34%] absolute pointer-events-none">
+                  <img src="../../../src/assets/play.png" />
+                </div>
+
+                <div
+                  className="z-[100]bg-500-red h-8 w-8 absolute"
+                  style={{ right: "7%", top: "40%" }}
+                >
+                  <a href={`${item.instaLink}`} target="_blank">
+                    <img src={`${item.shareIcon}`} className="mb-10" />
+                  </a>
+                  <a href={`${item.instaLink}`} target="_blank">
+                    <img src={`${item.commentIcon}`} className="mb-10" />
+                  </a>
+
+                  <a href={`${item.instaLink}`} target="_blank">
+                    <img src={`${item.likeIcon}`} className="mb-10" />
+                  </a>
+                </div>
+                <InstagramEmbedDangerousHTML url={`${item.instaLink}`} />
+              </div>
+            </div>
+          );
+        })}
       </div>
       <div className="video-cards flex w-[100%] justify-around mx-auto mt-10 items-center">
         {/* <VideoCard1 />
