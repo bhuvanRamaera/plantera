@@ -14,6 +14,7 @@ const LogoSection = () => {
         <h1 className="heading-text leading-none">
           Diverse blend of culture and taste
         </h1>
+
         <p className="sub-text my-3">
           Lorem ipsum dolor sit amet consectetur adipiscing elit interdum
           ullamcorper sed pharetra sene.

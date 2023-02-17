@@ -8,7 +8,8 @@ import { Share } from "@mui/icons-material";
 import { SocialIcon } from "./SocialIcon";
 
 const Recipes = () => {
-  const [isActive,  setIsActive] = useState(true)
+  const [isActive, setIsActive] = useState(true);
+
   return (
     <div className="recipes lg:w-[95%] mx-auto mt-5">
       <div className="flex justify-center">
@@ -22,10 +23,6 @@ const Recipes = () => {
                 className="shadow-lg p-4 relative"
                 style={{ border: "1px solid #dbdbdb" }}
               >
-                <div className="z-[100]bg-500-red right-[34%] top-[26%]  h-8 w-[34%] absolute pointer-events-none">
-                  <img src="../../../src/assets/play.png" />
-                </div>
-
                 <div
                   className="z-[100]bg-500-red h-8 w-8 absolute"
                   style={{ right: "7%", top: "40%" }}
