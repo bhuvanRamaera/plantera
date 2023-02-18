@@ -8,9 +8,13 @@ import tumericPowder from "../assets/images/turmeric.png";
 import LogoSection from "../navigation/LogoSection";
 import NavItem from "../navigation/NavItem";
 import CartSection from "../navigation/CartSection";
-
 import NavigationMobile from "../MobileNavigation/NavigationMobile";
 import { useState } from "react";
+import {PouchData} from "./PouchData";
+import {MobilePouchData} from "./MobilePouchData";
+
+
+
 // import { searchForWorkspaceRoot } from "vite";
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
@@ -82,46 +86,74 @@ function Header() {
                 </div>
               </div>
             </div>
+            <div id="mobile-pouch">
+            {/* <div class="basis-10/12 relative"><div className="flex justify-start">
+              <img src="../src/assets/images/redchilli.png" width="80px" class="pl-3 absolute z-10" style={{marginLeft:"18px"}}>
+                <div class="Mobilepouch-box-1 flex justify-center items-end absolute"></div>
+                </div>
+                <div className="flex justify-center	">
+                  <img src="../src/assets/images/turmeric.png" width="80px" class="pl-3 absolute z-10">
+                    <div class="Mobilepouch-box-2 flex justify-center items-end absolute"></div>
+                    </div>
+                    <div className="flex justify-center	">
+                      <img src="../src/assets/images/coriender.png" width="80px" class="pl-3 absolute z-10">
+                        <div class="Mobilepouch-box-3 flex justify-center items-end absolute">
+                          </div>
+                          </div>
+                          </div>
+ */}
 
-            <div
-              id="mobile-pouch"
-              className="basis-12/12 flex absolute image-top"
+            <div className="basis-12/12 flex absolute image-top w-full"
               style={{ right: "3%", top: "48%" }}
             >
-              <div className="basis-6/12 flex"></div>
-              <div className="basis-6/12 flex justify-end">
-                <img
-                  src={redPowder}
-                  width={"80px"}
-                  height={"80px"}
-                  className="pr-3"
-                />
-                <img
-                  src={tumericPowder}
-                  width={"80px"}
-                  height={"80px"}
-                  className="pr-3"
-                />
-                <img
-                  src={corienderPowder}
-                  width={"80px"}
-                  height={"80px"}
-                  className="pr-3"
-                />
+              <div className="basis-2/12 flex mobileDisplay"></div>
+              <div className="basis-10/12 flex justify-between relative">
+              {MobilePouchData.map((item)=>{
+                  return(
+                    <div>
+                    <img src={item.masalaImg} width={"80px"} className="pr-3 absolute z-10" />
+                    <div
+                        className={`${item.pouchProperty1} flex justify-center items-end absolute`}
+                      >
+                        
+                      </div>
+                      </div>
+                  )
+              })}
               </div>
             </div>
-            <div
-              id="desktop-pouch"
-              className="basis-12/12 flex absolute image-top"
-              style={{ right: "3%", top: "100%" }}
-            >
-              <div className="basis-6/12 flex"></div>
-              <div className="basis-6/12 flex justify-end">
-                <img src={redPowder} width={"120px"} className="pr-3" />
+            </div>
+            <div id="desktop-pouch">
+            <div className="basis-12/12 flex absolute image-top w-full"
+              style={{ top: "100%" }} >
+              <div className="basis-8/12 flex"></div>
+              
+              <div className="basis-4/12 flex justify-around relative">
+              {PouchData.map((item)=>{
+                  return(
+                    <div>
+                    <img src={item.masalaImg} width={"100px"} className="pr-3" />
+                    <div
+                        className={`${item.pouchProperty1} flex justify-center items-end absolute`}
+                      >
+                        
+                      </div>
+                      </div>
+                  )
+              })}
+                {/* <div>
+                <img src={redPowder} width={"100px"} className="pr-3" />
+                <div
+                    className="flex justify-center items-end absolute pouch-box-1"
+                  >
+                    
+                  </div>
+                  </div>
                 <img src={tumericPowder} width={"120px"} className="pr-3" />
-                <img src={corienderPowder} width={"120px"} className="pr-3" />
+                <img src={corienderPowder} width={"120px"} className="pr-3" /> */}
               </div>
             </div>
+          </div>
           </div>
         </nav>
 

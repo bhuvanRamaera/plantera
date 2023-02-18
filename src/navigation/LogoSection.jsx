@@ -11,7 +11,24 @@ const LogoSection = () => {
         className="max-w-auto h-auto my-4"
       />
       <div className="basis-4/12 text-alignment">
-        <h1 className="heading-text leading-none">
+        <h1 className="heading-text">
+          <a href="#" class="effect-shine">
+            Diverse blend</a>
+            <a href="#" class="effect-shine"> of culture and </a>
+            <a href="#" class="effect-shine">taste
+          </a>
+        </h1>
+
+        <p className="sub-text my-3">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit interdum
+          ullamcorper sed pharetra sene.
+        </p>
+
+        <a href="#" className="explore btn1 my-5">
+          Explore More
+        </a>
+
+        {/* <h1 className="heading-text leading-none">
           Diverse blend of culture and taste
         </h1>
 
@@ -22,7 +39,7 @@ const LogoSection = () => {
 
         <a href="#" className="explore my-5">
           Explore More
-        </a>
+        </a> */}
       </div>
     </div>
   );

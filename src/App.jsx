@@ -1,3 +1,4 @@
+import {useEffect} from "react"
 import "./App.css";
 import "./MediaQuery.css";
 import Header from "./Header/Header";
@@ -16,8 +17,13 @@ import NewsandBlog from "./Components/NewsandBlog/NewsandBlog";
 import HandPicked from "./Components/HandpickedSpices/HandPicked";
 import Recipes from "./Components/Recipes/Recipes";
 import InstagramFeed from "./Components/Recipes/InstagramFeed";
-
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   // require("dotenv").config();
   return (
     <>

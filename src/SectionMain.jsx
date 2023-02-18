@@ -36,7 +36,11 @@ function SectionMain() {
         </div>
         <div className="basis-1/12 cooking-dis"></div>
       </div>
+      <div data-aos="slide-right" className="slideRight">
+
+
       <img src={cusinesImage} className="cusines-image" />
+      </div> 
     </div>
   );
 }

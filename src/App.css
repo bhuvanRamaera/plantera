@@ -5,6 +5,7 @@ button{cursor: pointer;}
 img{vertical-align: bottom;}
 /* reset css end */
 
+
 body{
     overflow-x: clip;
 }
@@ -408,25 +409,8 @@ img.vert-move {
 }
 
 
-.wrapper {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left:50%;
-    -webkit-transform: translate(-50%,-50%);
-  }
-  
-  h1 a {
-    color: #fff;
-    font-size: 2em;
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
-    font-family: 'Dosis', sans-serif;
-  }
-  
-  
- 
+
+
   
   
 
