@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
             <div className="join">
               <input type="text" className='input px-3' placeholder='Enter Your Email' />
-              <button className='footer-btn'>Subscribe</button>
+              <button className='footer-btn btn3'>Subscribe</button>
             </div>
           </div>
           <div className="lg:basis-3/12 social lg:h-48 bg-[#1E1E1E] flex flex-col justify-center lg:items-start">

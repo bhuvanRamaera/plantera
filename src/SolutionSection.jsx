@@ -5,12 +5,20 @@ function SolutionSection() {
   return (
     <div className="container mt-40">
       <div className="basis-12/12 bussiness-Flex">
-        <div className="basis-6/12 solution-background">
+        <div
+          className="basis-6/12 solution-background"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
           <img src={spice} class="solution-image w-max-full h-auto" />
         </div>
         <div className="basis-1/12"></div>
 
-        <div className="basis-4/12 self-center spices-pad">
+        <div
+          className="basis-4/12 self-center spices-pad"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           <h1 class="bussiness-head-mobile my-3">
             Get the Desired Flavour and Aroma with PlanetsEra Spices
           </h1>

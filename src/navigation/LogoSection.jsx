@@ -12,10 +12,15 @@ const LogoSection = () => {
       />
       <div className="basis-4/12 text-alignment">
         <h1 className="heading-text">
-          <a href="#" class="effect-shine">
-            Diverse blend</a>
-            <a href="#" class="effect-shine"> of culture and </a>
-            <a href="#" class="effect-shine">taste
+          <a href="#" className="heading-text">
+            Diverse blend
+          </a>
+          <a href="#" class="heading-text">
+            {" "}
+            of culture and {" "}
+          </a>
+          <a href="#" class="heading-text">
+            taste
           </a>
         </h1>
 

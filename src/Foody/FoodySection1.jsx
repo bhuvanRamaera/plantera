@@ -19,8 +19,7 @@ const FoodySection1 = () => {
       <div class="clearfix"></div>
       <a
         href="#"
-        className="explore-foody flex bg-white p-4 justify-center items-center my-3
-            hover:bg-black hover:text-white"
+        className="explore-foody btn2 flex bg-white p-4 justify-center items-center my-3"
       >
         Read More
       </a>

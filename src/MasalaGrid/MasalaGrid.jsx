@@ -12,13 +12,17 @@ function MasalaGrid() {
     <>
       <div className="container px-28 mx-auto lg:pt-22 mt-24">
         <div className="basis-12/12">
-          <h2 className="text-center my-5 bussiness-head">
-            Perfect spicy twist for every occasion
-          </h2>
-          <p className="taste-text text-center text-md font-normal mb-3">
-            PlanetsEra has an extensive range of spices to make your day -
-            amazing and extraordinary.
-          </p>
+          <div data-aos="fade-right" data-aos-duration="1000">
+            <h2 className="text-center my-5 bussiness-head">
+              Perfect spicy twist for every occasion
+            </h2>
+          </div>
+          <div data-aos="fade-left" data-aos-duration="1000">
+            <p className="taste-text text-center text-md font-normal mb-3">
+              PlanetsEra has an extensive range of spices to make your day -
+              amazing and extraordinary.
+            </p>
+          </div>
         </div>
         <div className="masalaMobile-flex">
           {MasalaGridData.map((item) => {

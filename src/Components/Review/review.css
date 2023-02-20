@@ -1,3 +1,5 @@
+@use postcss-preset-env;
+@use postcss-nested;
 .review-container{
   width: 95%;
   height: 100vh;
@@ -53,7 +55,7 @@
 }
 .order{
   width: 434px;
-  height: 213px;
+  height: auto;
   left: 42%;
 }
 .order-info {
@@ -64,7 +66,7 @@
   line-height: 28px;
 }
 .order-desc {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   color: #828282;
   font-weight: 200;
@@ -129,4 +131,356 @@
   .transbg{
     display: none;
   }
+
+  .w-\[85\%\] {
+    width: 100% !important;
 }
+
+ 
+}
+ 
+@keyframes spin {
+  from {transform: translate(-50%, -50%) rotate(0);}
+  to   {transform: translate(-50%, -50%) rotate(360deg);}
+}
+.rotating-border {
+  --border-radius: 1rem;
+  --border-size: 0.5rem;
+  --border-bg: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
+  --padding: 1rem;
+  
+  position: relative;
+  overflow: hidden;
+  font-size: 2rem;
+  padding: calc(var(--padding) + var(--border-size));
+  border-radius: var(--border-radius);
+  display: inline-block;
+}
+  .rotating-border::before {
+    content: '';
+    display: block;
+    background: var(--border-bg);
+    width: calc(100% * 1.41421356237);
+    padding-bottom: calc(100% * 1.41421356237);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    z-index: -2;
+    animation: spin 5s linear infinite;
+  }
+    
+.rotating-border--reverse::before{
+    animation-direction: reverse;
+  }
+    
+.rotating-border::after{
+    content: '';
+    position: absolute;
+    inset: var(--border-size);
+    background: white;
+    z-index: -1;
+    border-radius: calc(var(--border-radius) - var(--border-size));
+  }
+/* ---------- End .rotating-border ---------- */
+
+/* ---------- Begin customizing .rotating-border ---------- */
+.rotating-border--google {
+  --border-radius: 23px;
+  --border-size: 0.10rem;
+  --border-bg: conic-gradient(
+    #FF4F4F 0.0turn 0.125turn, 
+    #FF4F4F 0.125turn 0.25turn, 
+    #FF4F4F 0.25turn 0.375turn, 
+    #ffff 0.375turn 0.5turn, 
+    #FF4F4F 0.5turn 0.625turn, 
+    #FF4F4F 0.625turn 0.75turn, 
+    #FF4F4F 0.75turn 0.875turn, 
+    #FF4F4F 0.875turn 1.0turn
+  );
+  
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 2;
+}
+.rotating-border--rainbow{
+  --border-radius: 1.5rem;
+  --border-size: 0.5rem;
+  --border-bg: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
+}
+.rotating-border--black-white{
+  --border-radius: 100%;
+  --border-size: 0.6rem;
+  --border-bg: conic-gradient(
+    #fff 0.00turn 0.05turn, 
+    #333 0.05turn 0.10turn, 
+    #fff 0.10turn 0.15turn, 
+    #333 0.15turn 0.20turn, 
+    #fff 0.20turn 0.25turn, 
+    #333 0.25turn 0.30turn, 
+    #fff 0.30turn 0.35turn, 
+    #333 0.35turn 0.40turn, 
+    #fff 0.40turn 0.45turn, 
+    #333 0.45turn 0.50turn, 
+    #fff 0.50turn 0.55turn, 
+    #333 0.55turn 0.60turn, 
+    #fff 0.60turn 0.65turn, 
+    #333 0.65turn 0.70turn, 
+    #fff 0.70turn 0.75turn, 
+    #333 0.75turn 0.80turn, 
+    #fff 0.80turn 0.85turn, 
+    #333 0.85turn 0.90turn, 
+    #fff 0.90turn 0.95turn,
+    #333 0.95turn 1.00turn
+  );
+}
+.rotating-border--black-yellow{
+  --border-radius: 100%;
+  --border-bg: conic-gradient(
+    #F0C400 0.1666turn, 
+    #444 0.1666turn 0.3333turn, 
+    #F0C400 0.3333turn 0.5turn, 
+    #444 0.5turn 0.6666turn, 
+    #F0C400 0.6666turn 0.8333turn, 
+    #444 0.8333turn
+  );
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+}
+/* ---------- End customizing .rotating-border ---------- */
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
