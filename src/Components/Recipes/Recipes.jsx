@@ -11,7 +11,7 @@ const Recipes = () => {
   const [isActive, setIsActive] = useState(true);
 
   return (
-    <div className="recipes lg:w-[95%] mx-auto mt-5">
+    <div className="recipes lg:w-[95%] mx-auto mt-32">
       <div className="flex justify-center">
         <h1 className="heading">Check out the yummiest recipes </h1>
       </div>

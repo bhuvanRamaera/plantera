@@ -12,14 +12,15 @@ const LogoSection = () => {
       />
       <div className="basis-4/12 text-alignment">
         <h1 className="heading-text">
-          <a href="#" className="heading-text">
+          <a href="#" className="heading-text myHover">
             Diverse blend
           </a>
-          <a href="#" class="heading-text">
+
+          <a href="#" class="heading-text myHover">
             {" "}
-            of culture and {" "}
+            of culture and{" "}
           </a>
-          <a href="#" class="heading-text">
+          <a href="#" class="heading-text myHover-taste">
             taste
           </a>
         </h1>

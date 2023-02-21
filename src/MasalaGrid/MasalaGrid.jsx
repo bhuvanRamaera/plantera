@@ -24,7 +24,11 @@ function MasalaGrid() {
             </p>
           </div>
         </div>
-        <div className="masalaMobile-flex">
+        <div
+          className="masalaMobile-flex"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           {MasalaGridData.map((item) => {
             return (
               <div className="m-[2%] masalaMobile-width">
@@ -48,7 +52,7 @@ function MasalaGrid() {
         <div className="basis-3/12 flex justify-center items-center">
           <a
             href="#"
-            className="masala-button mx-auto flex justify-center items-center"
+            className="masala-button mx-auto flex justify-center items-center btn-masala"
           >
             See All
           </a>

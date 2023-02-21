@@ -3,7 +3,11 @@ import FoodySection2 from "./FoodySection2";
 function FoodySection() {
   return (
     <div class="container flex mt-40">
-      <div class="basis-12/12 foodyBackground bussiness-Flex bg-no-repeat">
+      <div
+        class="basis-12/12 foodyBackground bussiness-Flex bg-no-repeat"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+      >
         <FoodySection1 />
         <div class="col-2"></div>
         <FoodySection2 />

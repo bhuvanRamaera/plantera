@@ -5,10 +5,18 @@ import product3 from "../assets/images/product-3.png";
 const FoodySection2 = () => {
   return (
     <div className="basis-5/12 self-center pr-5">
-      <div className="basis-12/12">
+      <div
+        className="basis-12/12"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+      >
         <img src={product1} class="mx-w-full height-auto" />
       </div>
-      <div className="basis-12/12 flex">
+      <div
+        className="basis-12/12 flex"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+      >
         <div className="basis-6/12">
           <img src={product2} class="mx-w-full height-auto" />
         </div>

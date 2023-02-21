@@ -13,7 +13,7 @@
   background-position: center;
   background-size: cover;
 }
-.cards{
+.cards {
   width: 20vw;
 }
 
@@ -30,40 +30,40 @@
   text-fill-color: transparent;
 }
 
-.product-desc{
-    font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 32px;
-
-color: #8A8585;
+.product-desc {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  color: #8a8585;
+  text-align: center;
 }
 
-@media screen and (max-width: 600px){
-  .newsandblog{
+@media screen and (max-width: 600px) {
+  .newsandblog {
     width: 100%;
   }
-  .spoon{
+  .spoon {
     display: none;
   }
-  .cards-container{
+  .cards-container {
     flex-direction: column;
   }
-  .blog-para{
+  .blog-para {
     width: 90%;
     text-align: center;
     font-size: 30px;
   }
-  .cards{
+  .cards {
     width: 100vw;
     margin: 2px auto;
     justify-content: center;
   }
-  .product-name{
+  .product-name {
     font-size: 30px;
   }
-  .product-desc{
+  .product-desc {
     font-size: 25px;
     width: 90%;
     text-align: center;

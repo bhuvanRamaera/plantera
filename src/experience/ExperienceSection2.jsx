@@ -2,7 +2,11 @@ import React from "react";
 
 export default function ExperienceSection2() {
   return (
-    <div className="basis-5/12 self-center pr-5">
+    <div
+      className="basis-5/12 self-center pr-5"
+      data-aos="fade-right"
+      data-aos-duration="1000"
+    >
       <h1 className="experience-heading mb-3">
         Exta ordinary taste And Experienced
       </h1>
