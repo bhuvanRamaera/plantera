@@ -28,10 +28,11 @@ const TechnologySection2 = () => {
       <div className="basis-2/12"></div>
       <div
         className="basis-5/12 relative bussiness-background"
-        data-aos="fade-left"
-        data-aos-duration="1000"
+        data-aos="fade-down-left"
       >
+        <div data-aos="fade-up-left">
         <img src={machines} className="absolute bussiness-image w-max-full" />
+        </div>
       </div>
     </div>
   );

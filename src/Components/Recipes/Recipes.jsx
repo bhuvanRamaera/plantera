@@ -13,7 +13,8 @@ const Recipes = () => {
   return (
     <div className="recipes lg:w-[95%] mx-auto mt-32">
       <div className="flex justify-center">
-        <h1 className="heading">Check out the yummiest recipes </h1>
+        <h1 className="heading" data-aos="fade-up">Check out the yummiest recipes </h1>
+        
       </div>
       <div className="video-cards flex w-[100%] justify-around mx-auto mt-10 items-center">
         {SocialIcon.map((item) => {

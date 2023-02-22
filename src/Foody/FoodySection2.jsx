@@ -7,8 +7,7 @@ const FoodySection2 = () => {
     <div className="basis-5/12 self-center pr-5">
       <div
         className="basis-12/12"
-        data-aos="fade-right"
-        data-aos-duration="1000"
+        
       >
         <img src={product1} class="mx-w-full height-auto" />
       </div>

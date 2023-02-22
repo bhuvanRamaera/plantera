@@ -7,7 +7,8 @@ function ExperienceSection() {
     <div className="container experience-flex px-5 py-2 mx-auto lg:pt-24 relative">
       <ExperienceSection1 />
       <ExperienceSection2 />
-      <img src={foodImage} className="experienceFood" />
+      <img src={foodImage} className="experienceFood"/>
+      
     </div>
   );
 }
